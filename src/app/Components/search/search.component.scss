@@ -1,0 +1,40 @@
+.fa-search{
+    padding-top:10px;
+    margin-left:2.5%;
+    background-color:rgb(230, 225, 225);
+    border-radius:8px 0px 0px 8px;
+    border:none;
+    color: rgb(138, 138, 138);
+}
+
+.searchbar{
+    display: flex;
+    padding-top: 2%;
+}
+
+.bar{
+    width: 75%;
+    height: 35px;
+    border-radius:0px 8px 8px 0px;
+    background-color:rgb(230, 225, 225);
+    border:none;
+    outline: none;
+    padding-left: 20px;
+}
+
+.sicon{
+    margin-left: 2%;
+    margin-top: 6px;
+    color:hsla(221, 96%, 51%, 0.863);
+}
+
+.sicon2{
+    color:hsla(221, 96%, 51%, 0.863);
+    margin-top: 3px;
+    margin-left: 2%;
+
+}
+
+::placeholder{
+    color:rgb(138, 138, 138);
+}

@@ -1,0 +1,21 @@
+.box.flex{
+    display:flex;
+    justify-content:center;
+    align-items: flex-start
+    
+}
+.mbutton{
+    background-color: hsla(221, 96%, 51%, 0.863);
+    color:rgba(255, 255, 255, 0.664);
+    width:80%;
+    margin-top: 8%;
+    height:45px;
+    border-radius: 10px;
+    font-size: 23px;
+    border:none;
+    outline:none;
+}
+
+.mbutton:hover{
+    background-color: hsla(221, 90%, 68%, 0.863);
+}

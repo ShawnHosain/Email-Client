@@ -1,0 +1,51 @@
+.flex-container-c{
+    display: flex;
+    padding-top: 5px;
+    padding-left: 55px;
+}
+
+.box.flex{
+    display:flex;
+    justify-content:center;
+    align-items: flex-start;
+}
+
+.col-lg-4{
+    position: absolute;
+    background-color: rgb(230, 225, 225);
+    height: 100%;
+    width: 100%;
+}
+
+.col-lg-8{
+    position:absolute;
+    overflow-y: scroll;
+    left: 33%;
+    height: 100%;
+    width: 100%;
+}
+
+.mbutton{
+    background-color: hsla(221, 96%, 51%, 0.863);
+    color:rgba(255, 255, 255, 0.664);
+    width:80%;
+    margin-top: 8%;
+    height:45px;
+    border-radius: 10px;
+    font-size: 23px;
+    border:none;
+    outline:none;
+    transition-duration: 0.25s;
+}
+
+.mbutton:hover{
+    background-color: hsla(221, 90%, 68%, 0.863);
+    transition-delay: .01s;
+    transition-duration: .25s;
+}
+
+#cont{
+    padding: 0px;
+    font-family: 'Montserrat';
+}
+
