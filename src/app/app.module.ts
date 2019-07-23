@@ -14,6 +14,7 @@ import { HomeComponent } from './Components/home/home.component';
 import { SignupFormComponent } from './Components/signup-form/signup-form.component';
 import { UserListComponent } from './Components/user-list/user-list.component';
 import { UserSelecterComponent } from './Components/user-selecter/user-selecter.component';
+import { EmailCreatorComponent } from './Components/email-creator/email-creator.component';
 
 const routes: Routes = [
   {
@@ -46,6 +47,7 @@ const routes: Routes = [
     SignupFormComponent,
     UserListComponent,
     UserSelecterComponent,
+    EmailCreatorComponent,
   ],
   imports: [
     BrowserModule,
