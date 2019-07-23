@@ -1,0 +1,112 @@
+
+.container{
+    padding: 40px;
+    font-family: Montserrat;
+    color: black;
+    
+}
+.box{
+    height: 500px;
+}
+
+.form-box{
+    display:flex;
+    padding : 20px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 10px 10px 5px #aaaaaa;
+    background-color: rgb(230, 225, 225);
+    align-content: center;
+    justify-content: center;
+    
+
+}
+
+.inputBox{
+    background: transparent;
+    border-bottom: 1px solid rgb(39,253,245);
+    color: white;
+}
+
+.dob{
+    padding:0px;
+}
+
+.sLabel{
+    font-size: 18px;
+}
+
+
+.iLabel{
+    font-size: 12px;
+}
+
+.title{
+    font-size: 30px;
+    text-align:center;
+    color:  black;
+    margin-top: 25px;
+    margin-bottom: 70px;
+}
+.section{
+    font-size: 30px;
+    text-align:center;
+    color:white;
+    background-color:rgb(39,253,245);
+    border-radius: 10px;
+}
+
+.suContainer{
+    justify-content: center;
+    width: 300px;
+}
+.inputContainer{
+    margin-top: 30px;
+    width:100%;
+}
+.logInput{
+    width: 100%;
+    background-color: transparent;
+    border: 0;
+    outline: none;
+    border-bottom: 1px solid black;
+}
+
+.label{
+    margin-bottom: 10px;
+}
+
+#signup{
+    margin-top: 30px;
+    width: 100%;
+    background-color:hsla(221, 96%, 51%, 0.863);
+    outline:none;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    transition-delay: .01s;
+    transition-duration: .25s;
+}
+
+#login:hover{
+    background-color: hsla(221, 90%, 68%, 0.863);
+    transition-delay: .01s;
+    transition-duration: .25s;
+
+}
+
+input, select{
+    &.ng-invalid{
+        &.ng-touched{
+            border-bottom: 1px solid red;
+            transition-delay: .01s;
+            transition-duration: .20s;
+        }
+
+    }
+    &.ng-valid{
+        border-bottom: 1px solid rgb(49, 236, 43);
+        transition-delay: .01s;
+        transition-duration: .20s;
+    }
+}

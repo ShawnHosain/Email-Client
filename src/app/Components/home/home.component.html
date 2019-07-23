@@ -1,0 +1,23 @@
+<div class = 'fluid-container' id = 'cont'>
+  <div class = 'row'>
+    <div class = 'col-lg-4'>
+      <app-info></app-info>
+      <div class = 'box flex'>
+          <button (click) = 'buttonPrompt()' class = 'mbutton' >new message </button>
+      </div>
+      <app-menu></app-menu>
+    </div>
+    <div class = 'col-lg-8'>
+      <app-search></app-search>
+      <app-email 
+      *ngFor = 'let PEmail of PEmails'
+        [sender] = 'PEmail.sender'
+        [subject] = 'PEmail.subject'
+        [content] = 'PEmail.content'
+        [read] = 'PEmail.read'
+        [time] = 'PEmail.time'>
+      </app-email>
+      
+    </div> 
+  </div>
+</div>

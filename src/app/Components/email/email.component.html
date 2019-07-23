@@ -1,10 +1,10 @@
-<button class = 'email-container' >
+<button class = 'email-container' (click) = 'onClick()'>
     <div class = 'name-time'>
         <p class = name>{{ sender }}</p>
-        <p class = time>ti:me pm</p>
+        <p class = time>{{ time | date:'EEEE, MMM d, y, h:mm a' }}</p>
     </div>
     <div class = 'title-notif'> 
-        <p class = 'notif'><i class="fa fa-circle" aria-hidden="true"></i></p>
+        <p  *ngIf = '!read' class = 'notif'><i class="fa fa-circle" aria-hidden="true"></i></p>
         <p class = 'title'>{{ subject }}</p>
     </div>
     <div class = 'content'>

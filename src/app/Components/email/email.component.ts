@@ -9,10 +9,16 @@ export class EmailComponent implements OnInit {
   @Input()sender : string;
   @Input()subject: string;
   @Input()content: string;
+  @Input()read: Boolean;
+  @Input()time: number;
 
   constructor() { }
 
   ngOnInit() {
+  }
+
+  onClick(){
+    this.read = true;
   }
 
 }
